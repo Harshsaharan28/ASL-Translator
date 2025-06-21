@@ -14,3 +14,6 @@ This project is a real-time American Sign Language (ASL) Translator built using 
 - MediaPipe
 - TensorFlow
 - OpenCV
+
+
+![Uploading WhatsApp Image 2025-05-06 at 10.05.24 AM.jpg…]()
