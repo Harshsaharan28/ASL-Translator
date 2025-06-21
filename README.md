@@ -15,3 +15,4 @@ This project is a real-time American Sign Language (ASL) Translator built using 
 - TensorFlow
 - OpenCV
 
+![Alt text](https://github.com/user-attachments/assets/54d65209-e6fe-4d7f-ad33-dce3f321a4d9)
