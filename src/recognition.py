@@ -4,9 +4,9 @@ import numpy as np
 import joblib
 from tensorflow.keras.models import load_model
 
-model = load_model('sign_language_model.keras')
+model = load_model('../models/sign_language_model.keras')
 
-scaler = joblib.load('scaler.pkl')
+scaler = joblib.load('../models/scaler.pkl')
 
 labels = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
