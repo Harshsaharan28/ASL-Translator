@@ -4,7 +4,7 @@ import numpy as np
 import csv
 import os
 
-csv_filename = 'landmark_data.csv'
+csv_filename = '../data/landmark_data.csv'
 
 labels = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
