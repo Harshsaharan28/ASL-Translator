@@ -15,8 +15,5 @@ This project is a real-time American Sign Language (ASL) Translator built using 
 - TensorFlow
 - OpenCV
 
-  ![Alt text](https://github.com/user-attachments/assets/54d65209-e6fe-4d7f-ad33-dce3f321a4d9)
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/8c36e694-4f98-4643-9b5b-0550516adaa6" width="500" alt="Prediction C"/>
-</p>
-
+    ![Alt text](https://github.com/user-attachments/assets/54d65209-e6fe-4d7f-ad33-dce3f321a4d9)
+    ![Prediction C](https://user-images.githubusercontent.com/12345678/your-image.png)
