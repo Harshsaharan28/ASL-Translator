@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
-df = pd.read_csv('../data/landmark_data.csv')  
+df = pd.read_csv('data/landmark_data.csv')  
 
 X = df.iloc[:, 1:].values  
 y = df['label'].values    
@@ -15,12 +15,12 @@ y = df['label'].values
 scaler = StandardScaler()
 X = scaler.fit_transform(X)
 
-joblib.dump(scaler, '../models/scaler.pkl')
+joblib.dump(scaler, 'models/scaler.pkl')
 
 label_encoder = LabelEncoder()
 y_encoded = label_encoder.fit_transform(y)
 
-joblib.dump(label_encoder, '../models/label_encoder.pkl')
+joblib.dump(label_encoder, 'models/label_encoder.pkl')
 
 print("Labels:", np.unique(y))
 print("Encoded Labels:", np.unique(y_encoded))
@@ -43,4 +43,4 @@ history = model.fit(X_train, y_train, epochs=100, batch_size=32, validation_data
 loss, accuracy = model.evaluate(X_test, y_test)
 print(f"Test accuracy: {accuracy:.4f}")
 
-model.save('../models/sign_language_model.keras')
+model.save('models/sign_language_model.keras')
