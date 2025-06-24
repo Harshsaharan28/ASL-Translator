@@ -16,4 +16,5 @@ This project is a real-time American Sign Language (ASL) Translator built using 
 - OpenCV
 
     ![Alt text](https://github.com/user-attachments/assets/54d65209-e6fe-4d7f-ad33-dce3f321a4d9)
-    ![Prediction C](https://user-images.githubusercontent.com/12345678/your-image.png)
+   
+    ![Screenshot 2025-05-06 100212](https://github.com/user-attachments/assets/0da20c47-c941-4b0e-a218-d7a37b8522da)
